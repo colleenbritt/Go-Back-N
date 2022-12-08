@@ -1,0 +1,28 @@
+
+All files are in the main directory.
+
+-------------
+
+To compile Java files, use:
+
+javac *.java
+
+-------------
+
+To run Client.java, use:
+
+java Client <ip address> <port> <input file> <window size> <mss>
+
+For example: java Client 192.168.59.128 7735 RAID2021.pdf 10 1000
+
+The file included in the directory is RAID2021.pdf.
+
+-------------
+
+To run Server.java, use:
+
+java Server <port> <output file> <probability>
+
+For example: java Server 7735 receive.pdf 0.05
+
+The file included in the directory is receive.pdf.
